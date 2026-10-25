@@ -1,0 +1,41 @@
+/*ページ全体*/
+body {
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+h1, p, th, td {
+    text-align: center;
+}
+
+/*見出し*/
+h1 {
+    color: #00cd3c;
+}
+
+/*表*/
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 640px;
+}
+
+th, td {
+    padding: 8px 30px;
+    border-bottom: 1px solid gray;
+}
+
+thead th {
+    background-color: #00cd3c;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eefbf1;
+}
+
+.highlight {
+    font-weight: bold;
+    background-color: #c8f5d4;
+}
