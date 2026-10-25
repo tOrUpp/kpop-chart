@@ -35,6 +35,10 @@ tbody tr:nth-child(even) {
     background-color: #eefbf1;
 }
 
+tbody tr:hover {
+    background-color: #a8edbb
+}
+
 .highlight {
     font-weight: bold;
     background-color: #c8f5d4;
